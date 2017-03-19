@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kajet</string>
+    <string name="tytul">Tytuł</string>
+    <string name="tagi">Tagi</string>
+    <string name="tresc">Treść notatki</string>
+    <string name="zapisz">Zapisz</string>
+</resources>
