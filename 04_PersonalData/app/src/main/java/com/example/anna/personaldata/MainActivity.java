@@ -1,6 +1,7 @@
 package com.example.anna.personaldata;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Layout;
@@ -11,25 +12,60 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
+
 
 public class MainActivity extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+
+
+    public void wyslijDane(View view) {
+        Intent wysylanieDanych = new Intent(this, Dane.class);
+        EditText imieEditText = (EditText) findViewById(R.id.imieEditText);
+        EditText nazwiskoEditText = (EditText) findViewById(R.id.nazwiskoEditText);
+        Spinner plecSpinner = (Spinner) findViewById(R.id.plecSpinner);
+        EditText adresEditText = (EditText) findViewById(R.id.adresEditText);
+        EditText kodEditText = (EditText) findViewById(R.id.kodEditText);
+        EditText miastoEditText = (EditText) findViewById(R.id.miastoEditText);
+
+        String imie = imieEditText.getText().toString();
+        String nazwisko = nazwiskoEditText.getText().toString();
+        String plec = plecSpinner.getSelectedItem().toString();
+        String adres = adresEditText.getText().toString();
+        String kod = kodEditText.getText().toString();
+        String miasto = miastoEditText.getText().toString();
+
+        Intent intencja = getIntent();
+        Bundle extras = new Bundle();
+        extras.putString("EXTRA_IMIE",imie);
+        extras.putString("EXTRA_NAZWISKO",nazwisko);
+        extras.putString("EXTRA_PLEC",plec);
+        extras.putString("EXTRA_ADRES",adres);
+        extras.putString("EXTRA_KOD",kod);
+        extras.putString("EXTRA_MIASTO",miasto);
+
+        wysylanieDanych.putExtras(extras);
+        startActivity(wysylanieDanych);
+    }
+
+
 
     public void showDialog(View view) {
 
-        EditText imieTextView = (EditText) findViewById(R.id.imieTextView);
-        EditText nazwiskoTextView = (EditText) findViewById(R.id.nazwiskoTextView);
+        EditText imieEditText = (EditText) findViewById(R.id.imieEditText);
+        EditText nazwiskoEditText = (EditText) findViewById(R.id.nazwiskoEditText);
         Spinner plecSpinner = (Spinner) findViewById(R.id.plecSpinner);
-        EditText adresTextView = (EditText) findViewById(R.id.adresTextView);
-        EditText kodTextView = (EditText) findViewById(R.id.kodTextView);
-        EditText miastoTextView = (EditText) findViewById(R.id.miastoTextView);
+        EditText adresEditText = (EditText) findViewById(R.id.adresEditText);
+        EditText kodEditText = (EditText) findViewById(R.id.kodEditText);
+        EditText miastoEditText = (EditText) findViewById(R.id.miastoEditText);
 
 
-        String imie = imieTextView.getText().toString();
-        String nazwisko = nazwiskoTextView.getText().toString();
+        String imie = imieEditText.getText().toString();
+        String nazwisko = nazwiskoEditText.getText().toString();
         String plec = plecSpinner.getSelectedItem().toString();
-        String adres = adresTextView.getText().toString();
-        String kod = kodTextView.getText().toString();
-        String miasto = miastoTextView.getText().toString();
+        String adres = adresEditText.getText().toString();
+        String kod = kodEditText.getText().toString();
+        String miasto = miastoEditText.getText().toString();
 
 
         AlertDialog alertDialog =   new AlertDialog.Builder(MainActivity.this).create();

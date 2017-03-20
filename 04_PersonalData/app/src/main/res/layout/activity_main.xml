@@ -22,14 +22,14 @@
             android:textColor="#000000"/>
 
         <EditText
-            android:id="@+id/imieTextView"
+            android:id="@+id/imieEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/imie"
             android:inputType="textCapWords"/>
 
         <EditText
-            android:id="@+id/nazwiskoTextView"
+            android:id="@+id/nazwiskoEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nazwisko"
@@ -42,7 +42,7 @@
 
 
         <EditText
-            android:id="@+id/adresTextView"
+            android:id="@+id/adresEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/adres"
@@ -54,7 +54,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/kodTextView"
+                android:id="@+id/kodEditText"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/kod"
@@ -62,7 +62,7 @@
                 />
 
             <EditText
-                android:id="@+id/miastoTextView"
+                android:id="@+id/miastoEditText"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/miasto"
@@ -74,6 +74,6 @@
             android:layout_width="wrap_content"
             android:text="@string/save"
             android:layout_gravity="end"
-            android:onClick="showDialog"/>
+            android:onClick="wyslijDane"/>
     </LinearLayout>
 </ScrollView>
