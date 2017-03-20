@@ -7,7 +7,7 @@
 
     <TextView
         android:id="@+id/osobaTextView"
-        android:text="Anna Madej"
+        android:text="@string/osoba"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="12sp"
-        android:text="Informatyka Stosowana"
+        android:text="@string/kierunek"
         />
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="15sp"
-        android:text="Uniwersytet Ekonomiczny w Krakowie"
+        android:text="@string/uczelnia"
         />
 
 
