@@ -3,4 +3,8 @@
     <string name="osoba">Anna Madej</string>
     <string name="kierunek">Applied Informatics</string>
     <string name="uczelnia">Cracov University of Economics</string>
+    <string name="ulica">Rakowicka 27</string>
+    <string name="telefon">+48121234567</string>
+    <string name="email">adres@emailowy.pl</string>
+    <string name="miasto"> 31-510 Kraków</string>
 </resources>
