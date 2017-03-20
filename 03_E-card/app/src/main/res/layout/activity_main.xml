@@ -3,7 +3,8 @@
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     android:padding="30dp"
-    android:stretchColumns="*">
+    android:stretchColumns="*"
+    android:background="#ffffff">
 
     <TableRow>
         <TextView
@@ -48,7 +49,7 @@
                 android:id="@+id/telefonTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:textSize="12sp"
                 android:text="@string/telefon"
                 android:layout_span="1"
@@ -57,7 +58,7 @@
                 android:id="@+id/ulicaTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="right"
+                android:gravity="end"
                 android:textSize="12sp"
                 android:text="@string/ulica"
                 android:layout_span="1"
@@ -71,7 +72,7 @@
             android:id="@+id/emailTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="left"
+            android:gravity="start"
             android:textSize="12sp"
             android:text="@string/email"
             android:layout_span="1"
@@ -80,13 +81,20 @@
             android:id="@+id/miastoTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="right"
+            android:gravity="end"
             android:textSize="12sp"
             android:text="@string/miasto"
             android:layout_span="1"
             />
+    </TableRow>
 
-
+    <TableRow>
+        <ImageView
+            android:src="@drawable/logouek"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_span="2"
+            android:contentDescription="@string/opisObrazka" />
     </TableRow>
 
 
