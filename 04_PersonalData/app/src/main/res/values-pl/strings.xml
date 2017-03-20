@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dane osobowe</string>
+    <string name="napis">Wypełnij formularz: </string>
+    <string name="imie">imię</string>
+    <string name="nazwisko">nazwisko</string>
+    <string name="adres">adres</string>
+    <string name="kod">kod pocztowy</string>
+    <string name="miasto">miasto</string>
+    <string name="save">Zapisz</string>
+    <string name="dialogTitle">Okno dialogowe</string>
+    <string name="dialogText">Twoje dane zostały zapisane!</string>
+
+    <string-array name="plec">
+        <item>mężczyzna</item>
+        <item>kobieta</item>
+    </string-array>
+</resources>

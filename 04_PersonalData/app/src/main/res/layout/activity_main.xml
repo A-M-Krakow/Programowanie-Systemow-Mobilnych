@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="#ffffff"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:id="@+id/napisTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/napis"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/imieTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/imie"
+            android:inputType="textCapWords"/>
+
+        <EditText
+            android:id="@+id/nazwiskoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nazwisko"
+            android:inputType="textCapWords"/>
+
+        <Spinner
+            android:id="@+id/plec"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+
+        <EditText
+            android:id="@+id/adresTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/adres"
+            android:inputType="textPostalAddress"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/kodTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/kod"
+                android:layout_weight="2"
+                />
+
+            <EditText
+                android:id="@+id/miastoTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/miasto"
+                android:layout_weight="3"
+                android:inputType="textCapWords"/>
+        </LinearLayout>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/save"
+            android:layout_gravity="end"
+            android:onClick="showDialog"/>
+    </LinearLayout>
+</ScrollView>

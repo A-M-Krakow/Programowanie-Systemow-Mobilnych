@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PersonalData</string>
+    <string name="napis">Fill in the following form:</string>
+    <string name="imie">name</string>
+    <string name="nazwisko">surname</string>
+    <string name="adres">address</string>
+    <string name="kod">postcode</string>
+    <string name="miasto">city</string>
+    <string name="save">Save</string>
+    <string name="dialogTitle">Dialog window</string>
+    <string name="dialogText">your personal data has just been saved in the database</string>
+    
+    <string-array name="plec">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+</resources>
