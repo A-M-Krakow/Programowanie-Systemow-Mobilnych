@@ -18,16 +18,19 @@ public class Powitanie extends AppCompatActivity {
         String adres = extras.getString("EXTRAS_ADRES");
         String kod = extras.getString("EXTRAS_KOD");
         String miasto = extras.getString("EXTRAS_MIASTO");
+        String email = extras.getString("EXTRAS_EMAIL");
 
         TextView imieTextView = (TextView) findViewById(R.id.imieTextView);
         TextView adresTextView = (TextView) findViewById(R.id.adresTextView);
         TextView kodTextView = (TextView) findViewById(R.id.kodTextView);
         TextView miastoTextView = (TextView) findViewById(R.id.miastoTextView);
+        TextView emailTextView = (TextView) findViewById(R.id.emailTextView);
 
         imieTextView.setText(getString(R.string.witaj) + ", " + imie);
         adresTextView.setText(adres);
         kodTextView.setText(kod);
         miastoTextView.setText(miasto);
+        emailTextView.setText(email);
 
     }
 }

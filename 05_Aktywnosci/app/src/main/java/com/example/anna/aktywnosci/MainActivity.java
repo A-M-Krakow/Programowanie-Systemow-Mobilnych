@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void pokazInformacje (View view)
     {
-        Intent pokazywanieInformacji = new Intent(this, informacje.class);
+        Intent pokazywanieInformacji = new Intent(this, Informacje.class);
         startActivity(pokazywanieInformacji);
 
     }
 
     public void pobierzDane (View view)
     {
-        Intent pobieranieDanych = new Intent(this, pobieranie.class);
+        Intent pobieranieDanych = new Intent(this, Pobieranie.class);
         startActivity(pobieranieDanych);
     }
 

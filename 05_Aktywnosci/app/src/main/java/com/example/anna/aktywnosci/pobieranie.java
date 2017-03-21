@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class pobieranie extends AppCompatActivity {
+public class Pobieranie extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +34,10 @@ public class pobieranie extends AppCompatActivity {
         EditText miastoEditText = (EditText) findViewById(R.id.miastoEditText);
         String miasto = miastoEditText.getText().toString();
         extras.putString("EXTRAS_MIASTO", miasto);
+
+        EditText emailEditText = (EditText) findViewById(R.id.emailEditText);
+        String email = emailEditText.getText().toString();
+        extras.putString("EXTRAS_EMAIL", email);
 
 
         Intent witanie = new Intent(this, Powitanie.class);

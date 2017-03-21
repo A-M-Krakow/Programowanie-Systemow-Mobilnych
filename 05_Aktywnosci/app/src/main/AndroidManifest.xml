@@ -12,17 +12,26 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".informacje"
+            android:label="@string/informacje"
+            android:name=".Informacje"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".pobieranie"
+            android:label="@string/pobierzDane"
+            android:name=".Pobieranie"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".Powitanie"></activity>
+
+        <activity android:name=".Powitanie"
+            android:label="@string/witaj"
+            android:parentActivityName=".Pobieranie"/>
+
+
+
+
+
     </application>
 
 </manifest>

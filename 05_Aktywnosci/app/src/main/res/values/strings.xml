@@ -19,4 +19,5 @@
     <string name="podajMiasto">city</string>
     <string name="podajAdres">address</string>
     <string name="podajKod">postal code</string>
+    <string name="podajEmail">e-mail</string>
 </resources>

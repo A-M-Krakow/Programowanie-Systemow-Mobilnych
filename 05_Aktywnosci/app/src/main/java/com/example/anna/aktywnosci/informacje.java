@@ -3,7 +3,7 @@ package com.example.anna.aktywnosci;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class informacje extends AppCompatActivity {
+public class Informacje extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
