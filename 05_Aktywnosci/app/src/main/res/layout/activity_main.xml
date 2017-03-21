@@ -29,7 +29,8 @@
         android:id="@+id/informacjeButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/informacje" />
+        android:text="@string/informacje"
+        android:onClick="pokazInformacje"/>
 
 
 

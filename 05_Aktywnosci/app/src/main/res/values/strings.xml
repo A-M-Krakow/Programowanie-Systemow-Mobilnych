@@ -1,7 +1,15 @@
 <resources>
-    <string name="app_name">Aktywnosci</string>
-    <string name="dostepneAktywnosci">Dostępne aktywności</string>
-    <string name="pobierzDane">Pobierz dane</string>
-    <string name="zadzwon">Zadzwoń</string>
-    <string name="informacje">Informacje o programie</string>
+    <string name="app_name">Activities</string>
+    <string name="dostepneAktywnosci">Available activities</string>
+    <string name="pobierzDane">Download data</string>
+    <string name="zadzwon">Call</string>
+    <string name="informacje">About application</string>
+    <string name="osoba">Anna Madej</string>
+    <string name="kierunek">Applied Informatics</string>
+    <string name="uczelnia">Cracov University of Economics</string>
+    <string name="ulica">Rakowicka 27</string>
+    <string name="telefon">+48121234567</string>
+    <string name="email">adres@emailowy.pl</string>
+    <string name="miasto">31-510 Kraków</string>
+    <string name="opisObrazka">UEKLogo</string>
 </resources>
