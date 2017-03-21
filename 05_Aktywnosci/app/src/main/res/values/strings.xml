@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aktywnosci</string>
+    <string name="dostepneAktywnosci">Dostępne aktywności</string>
+    <string name="pobierzDane">Pobierz dane</string>
+    <string name="zadzwon">Zadzwoń</string>
+    <string name="informacje">Informacje o programie</string>
+</resources>

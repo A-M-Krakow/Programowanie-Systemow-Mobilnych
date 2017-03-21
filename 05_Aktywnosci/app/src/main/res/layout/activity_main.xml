@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/dostepneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dostepneAktywnosci"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/pobierzaneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pobierzDane" />
+
+    <Button
+        android:id="@+id/zadzwonButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zadzwon" />
+
+    <Button
+        android:id="@+id/informacjeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informacje" />
+
+
+
+
+
+</LinearLayout>
