@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aktywności</string>
+    <string name="dostepneAktywnosci">Dostępne aktywności</string>
+    <string name="pobierzDane">Pobierz dane</string>
+    <string name="zadzwon">Zadzwoń</string>
+    <string name="informacje">Informacje o programie</string>
+    <string name="kierunek">Informatyka stosowana</string>
+    <string name="uczelnia">Uniwersytet Ekonomiczny w Krakowie</string>
+    <string name="podajImie">Podaj swoje imię</string>
+    <string name="witaj">Witaj</string>
+    <string name="podajMiasto">miasto</string>
+    <string name="podajAdres">adres</string>
+    <string name="podajKod">kod</string>
+</resources>
