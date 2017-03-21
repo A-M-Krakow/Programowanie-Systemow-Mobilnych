@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Konwerter</string>
+    <string name="napis">Konwerter PLN na EUR</string>
+    <string name="wpisz">Wpisz, ile masz PLN</string>
+    <string name="przelicz">PRZELICZ</string>
+</resources>
