@@ -25,8 +25,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void zadzwon (View view)
     {
-        Uri number = Uri.parse("tel:123456789");
-        Intent dzwonienie = new Intent(Intent.ACTION_DIAL, number);
+        Uri numer = Uri.parse("tel:123456789");
+        Intent dzwonienie = new Intent(Intent.ACTION_DIAL, numer);
         startActivity(dzwonienie);
+    }
+
+    public void otworzStrone (View view)
+    {
+        Uri adresStrony = Uri.parse("http://www.m.onet.pl");
+        Intent wyswietlanieStrony = new Intent(Intent.ACTION_VIEW, adresStrony);
+        startActivity(wyswietlanieStrony);
     }
 }

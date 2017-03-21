@@ -33,6 +33,13 @@
         android:text="@string/informacje"
         android:onClick="pokazInformacje"/>
 
+    <Button
+        android:id="@+id/stronaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strona"
+        android:onClick="otworzStrone"/>
+
 
 
 
