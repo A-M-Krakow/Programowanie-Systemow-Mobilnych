@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void showDialog(View view) {
+    /* public void showDialog(View view) {
 
         EditText imieEditText = (EditText) findViewById(R.id.imieEditText);
         EditText nazwiskoEditText = (EditText) findViewById(R.id.nazwiskoEditText);
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    }
+    } */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
