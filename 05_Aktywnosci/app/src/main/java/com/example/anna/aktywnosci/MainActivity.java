@@ -1,6 +1,7 @@
 package com.example.anna.aktywnosci;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,5 +21,12 @@ public class MainActivity extends AppCompatActivity {
         Intent pokazywanieInformacji = new Intent(this, informacje.class);
         startActivity(pokazywanieInformacji);
 
+    }
+
+    public void zadzwon (View view)
+    {
+        Uri number = Uri.parse("tel:123456789");
+        Intent dzwonienie = new Intent(Intent.ACTION_DIAL, number);
+        startActivity(dzwonienie);
     }
 }
