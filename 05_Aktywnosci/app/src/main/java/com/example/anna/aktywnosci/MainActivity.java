@@ -23,6 +23,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void pobierzDane (View view)
+    {
+        Intent pobieranieDanych = new Intent(this, pobieranie.class);
+        startActivity(pobieranieDanych);
+    }
+
     public void zadzwon (View view)
     {
         Uri numer = Uri.parse("tel:123456789");

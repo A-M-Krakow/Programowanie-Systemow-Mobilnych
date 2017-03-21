@@ -17,7 +17,8 @@
         android:id="@+id/pobierzaneButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pobierzDane" />
+        android:text="@string/pobierzDane"
+        android:onClick="pobierzDane"/>
 
     <Button
         android:id="@+id/zadzwonButton"

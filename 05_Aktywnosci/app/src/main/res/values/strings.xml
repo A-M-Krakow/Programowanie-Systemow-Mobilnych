@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Activities</string>
     <string name="dostepneAktywnosci">Available activities</string>
-    <string name="pobierzDane">Download data</string>
+    <string name="pobierzDane">Input data</string>
     <string name="zadzwon">Call</string>
     <string name="informacje">About application</string>
     <string name="osoba">Anna Madej</string>
@@ -13,4 +13,10 @@
     <string name="miasto">31-510 Kraków</string>
     <string name="opisObrazka">UEKLogo</string>
     <string name="strona">WWW</string>
+    <string name="podajImie">Type in  your name</string>
+    <string name="ok">OK</string>
+    <string name="witaj">Welcome</string>
+    <string name="podajMiasto">city</string>
+    <string name="podajAdres">address</string>
+    <string name="podajKod">postal code</string>
 </resources>
