@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         String kod = kodEditText.getText().toString();
         String miasto = miastoEditText.getText().toString();
 
-        Intent intencja = getIntent();
         Bundle extras = new Bundle();
         extras.putString("EXTRA_IMIE",imie);
         extras.putString("EXTRA_NAZWISKO",nazwisko);
