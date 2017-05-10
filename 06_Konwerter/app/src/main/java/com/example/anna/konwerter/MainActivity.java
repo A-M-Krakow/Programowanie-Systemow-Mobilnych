@@ -14,20 +14,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+        setContentView(R.layout.activity_main); }
 
-    public void przelicz (View view)
-    {
+
+    public void przelicz(View view) {
         TextView EURTextView = (TextView) findViewById(R.id.EURTextView);
         EditText PLNEditText = (EditText) findViewById(R.id.PLNEditText);
         String PLN = PLNEditText.getText().toString();
 
-        Double EURDOuble = KURS * (new Double (PLN));
+        Double EURDOuble = (new Double(PLN)) / KURS;
 
         String EUR = EURDOuble.toString();
 
-
-        EURTextView.setText(PLN + " PLN = " + EUR + " EUR");
+        EURTextView.setText(EUR + " EUR = " + PLN + " PLN");
     }
+
 }
+
