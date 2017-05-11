@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">07_Kajet2</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="pref_fontsize">Wielkość czcionki</string>
+    <string name="pref_fontsize_summ">Wybierz rozmiar czcionki</string>
+    <string name="pref_opis">Opis</string>
+    <string name="pref_opis_summ">Wyświetl pierwszą linię notatki</string>
+    <string name="pref_sorting">Sortowanie</string>
+    <string name="pref_sorting_summary">Wybierz sposób sortowania</string>
+    <string name="pref_pass">Hasło</string>
+    <string name="pref_pass_summary">Ustaw hasło</string>
+</resources>
